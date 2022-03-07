@@ -6,4 +6,4 @@ This is the readme file for tenniscourt.py, which transforms the two tennis cour
     - **filterpts**: two functions, which both filter and order the detected contour points for warping (for left and right sides of the court)
     - **birdseyetransform**: performs the warping needed for the birdseye view
 
-    The **main** function reads an image and performs the needed steps to create a birds eye view from it. It assumes that the image is composed of two perspectives that meet evenly in the exact middle of the image. However, this approach works only for a single image and should be expanded to a loop that takes the most recent video frame and performs this warping.
+The **main** function reads an image and performs the needed steps to create a birds eye view from it. It assumes that the image is composed of two perspectives that meet evenly in the exact middle of the image. However, this approach works only for a single image and should be expanded to a loop that takes the most recent video frame and performs this warping.
